@@ -1,0 +1,134 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "startDate": "1/1/2001",
+      "payRate": 20,
+      "locationId": 1,
+      "userId": 2
+    },
+    {
+      "startDate": "2022-09-20",
+      "payRate": "3",
+      "locationId": 2,
+      "userId": 3,
+      "id": 2
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "address": "35 candy corner",
+      "city": "Nashville",
+      "state": "TN",
+      "sqFootage": 1000
+    },
+    {
+      "id": 2,
+      "address": "12 stout street",
+      "city": "Rochester",
+      "state": "NY",
+      "sqFootage": 500
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Jeremy",
+      "email": "jeremy@jeremy.com",
+      "isStaff": true
+    },
+    {
+      "id": 2,
+      "name": "Eric",
+      "email": "eric@eric.com",
+      "isStaff": false
+    },
+    {
+      "name": "Eric Breyer",
+      "email": "tubbz@duck.com",
+      "isStaff": false,
+      "id": 3
+    }
+  ],
+  "purchases": [
+    {
+      "id": 1,
+      "customerId": 4,
+      "productId": 3,
+      "amount": 2
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Rolos",
+      "productTypesId": 1,
+      "price": 2
+    },
+    {
+      "id": 2,
+      "name": "Dr. Pepper",
+      "productTypesId": 2,
+      "price": 1
+    },
+    {
+      "id": 3,
+      "name": "Nerds Rope",
+      "productTypesId": 3,
+      "price": 4
+    },
+    {
+      "name": "test",
+      "productTypesId": 2,
+      "price": 4,
+      "id": 4
+    },
+    {
+      "name": "Big Snicker",
+      "productTypesId": 3,
+      "price": 40,
+      "id": 5
+    },
+    {
+      "name": "M&Ms Minis",
+      "productTypesId": 3,
+      "price": 50,
+      "id": 6
+    },
+    {
+      "name": "Nik-L-Nip",
+      "productTypesId": 3,
+      "price": 100,
+      "id": 7
+    }
+  ],
+  "productTypes": [
+    {
+      "id": 1,
+      "type": "Chocolate"
+    },
+    {
+      "id": 2,
+      "type": "Sodie Pop"
+    },
+    {
+      "id": 3,
+      "type": "Cadny"
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "loyaltyNumber": 4,
+      "userId": 3
+    }
+  ],
+  "productLocations": [
+    {
+      "id": 1,
+      "productId": 1,
+      "locationId": 1
+    }
+  ]
+}
